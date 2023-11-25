@@ -1,4 +1,4 @@
-const pdfModel = require("../Models/pdfModel");
+const pdfModel = require("../models/pdfModel");
 const multer = require("multer");
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });

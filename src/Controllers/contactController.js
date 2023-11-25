@@ -1,5 +1,5 @@
 const express = require("express");
-const contactModel = require("../Models/contactModel");
+const contactModel = require("../models/contactModel");
 const postContactForm = async (req, res) => {};
 const StudentContacts = async (req, res) => {
   try {

@@ -1,5 +1,5 @@
 const express = require("express");
-const admissionModel = require("../Models/admissionModel");
+const admissionModel = require("../models/admissionModel");
 
 const nodemailer = require("nodemailer");
 

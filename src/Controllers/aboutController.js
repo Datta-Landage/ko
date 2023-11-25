@@ -1,4 +1,4 @@
-const aboutModel = require("../Models/aboutModal");
+const aboutModel = require("../models/aboutModal");
 const multer = require("multer");
 const upload = multer();
 const aboutData = async (req, res) => {

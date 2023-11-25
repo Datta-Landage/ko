@@ -1,4 +1,4 @@
-const feeModal = require("../Models/feePlaceholder");
+const feeModal = require("../models/feePlaceholder");
 
 const feePlaceholder = async (req, res) => {
   try {

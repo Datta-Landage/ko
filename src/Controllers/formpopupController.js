@@ -1,5 +1,5 @@
-const contactModel = require("../Models/contactModel");
-const formpopupModel = require("../Models/formfillpopup");
+const contactModel = require("../models/contactModel");
+const formpopupModel = require("../models/formfillpopup");
 const nodemailer = require("nodemailer");
 const formPopuData = async (req, res) => {
   try {

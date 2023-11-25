@@ -1,5 +1,5 @@
-const admissionModel = require("../Models/admissionModel");
-const userAdmissionModel = require("../Models/userAdmission");
+const admissionModel = require("../models/admissionModel");
+const userAdmissionModel = require("../models/userAdmission");
 const nodemailer = require("nodemailer");
 const userAdmissionData = async (req, res) => {
   try {

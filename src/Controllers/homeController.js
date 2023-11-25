@@ -1,4 +1,4 @@
-const homeModel = require("../Models/homeModel");
+const homeModel = require("../models/homeModel");
 const homeData = async (req, res) => {
   try {
     const { _id, id, Heading, Description, Photo, Published } = req.body;
